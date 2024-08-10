@@ -1,0 +1,85 @@
+/* language styles*/
+
+.azeret-mono-normal{
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 80px;
+
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 50px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+/* button styles */
+.btn-primary{
+    background-color: white;
+    font-weight: 800px;
+    font-size: 40px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* banner styles */
+.banner{
+    background-image: url(../images/assets/Hero-bg.png);
+    text-align: center;
+    height: 300px;
+    margin: 40px;
+    padding: 80px 20px;
+
+}
+
+.portfolio{
+    background-color: rgb(255, 247, 238);
+    border-radius: 10px;
+    margin: 80px 50px;
+}
+
+.skill-bg{
+    text-align: center;
+    padding: 40px;
+}
+
+.skill-item-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.skill-description-1{
+    max-width: 580px;
+}
+
+.skill-item-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.skill-description-2{
+    max-width: 580px;
+}
+
+.skill-item-3{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.skill-description-3{
+    max-width: 580px;
+}
